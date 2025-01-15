@@ -20,6 +20,25 @@ const digitalImages = [
   "/image/digital-four.jpg",
 ];
 
+const works = [
+  {
+    type: "video",
+    src: "/vid/upwork.mp4",
+    alt: "NFL",
+  },
+  {
+    type: "video",
+    src: "/vid/AnastasiaBH.mp4",
+    alt: "Anastasia",
+  },
+  {
+    type: "video",
+    src: "/vid/24.mp4",
+    alt: "24 Hour",
+  },
+];
+
+
 const statsModel = {
   height: "5'8\"",
   bust: "39",
@@ -28,4 +47,4 @@ const statsModel = {
   shoe: 9,
 };
 
-export { portfolioImages, digitalImages, statsModel };
+export { portfolioImages, digitalImages, works, statsModel };

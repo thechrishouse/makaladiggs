@@ -46,9 +46,9 @@ function Header() {
         </h1>
         <nav>
           <ul className="flex justify-center items-center space-x-8">
-            <li className="font-semibold uppercase">
+            {/* <li className="font-semibold uppercase">
               <Link href="/works">Works</Link>
-            </li>
+            </li> */}
             <li className="font-semibold uppercase">
               <Link href="/digitals">Digitals</Link>
             </li>

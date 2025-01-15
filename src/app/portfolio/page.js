@@ -1,4 +1,4 @@
-import { Gallery } from "../components";
+import { Gallery } from "/components";
 
 export function Portfolio() {
   return (

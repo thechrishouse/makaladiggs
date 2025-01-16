@@ -1,5 +1,5 @@
 import { digitalImages, statsModel } from "../constants";
-import { Gallery } from '../components';
+// import { Gallery } from '../components';
 import Image from "next/image";
 
 export default function Digitals() {

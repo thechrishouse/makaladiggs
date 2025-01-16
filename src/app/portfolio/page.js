@@ -1,6 +1,7 @@
-import { Gallery } from "/components";
+import { Gallery } from "../components";
+import { portfolioImages } from "../constants";
 
-export function Portfolio() {
+export default function Portfolio() {
   return (
     <>
       <Gallery images={portfolioImages} className="min-w-600px" />
